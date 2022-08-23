@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body::before {
+    display: block;
+    content: '';
+    height:100%;
+    width: 100%;
+}
+
+.bg1{
+    background-color: #00677e;
+    background-image: url(/images/ftx\ bg.png);
+}
+
+
+
+nav {
+    background-color: white;
+    border: 0px solid rgb(138, 8, 8);
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: smaller;
+   
+}
+
+.card{
+   text-align: start;
+    border: solid 1px rgb(43, 43, 43);
+    text-decoration: none;
+}
+
+
+
+    
+
+
+.form-col {
+    flex-basis: 50%;
+    padding-top: 200px;
+    padding-right: 770px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 900;
+
+}
+
+
+
+p {
+    margin: 20px 0px;
+    font-size: large;
+
+}
+
+a {
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+    font-size: 19px;
+
+
+}
+
+
+    .btn{
+        text-decoration: none;
+    }
+
+
+
+.btn:hover{
+    background-color: rgb(5, 88, 99);
+}
+.btn:active{
+    background-color: black;
+}
+.verifyh1:hover{
+    background-color: rgb(5, 140, 62);
+}
+
+
+
+
+
+
+
+
+
+
+.h3faqs{ border: solid red 2px;
+
+}
+
+footer{
+    
+}
+
+
+@media screen and (max-width: 375px) {
+    body {
+       
+        background-image: url(/images/bg-intro-mobile.png);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        
+        background-image: url(/images/bg-intro-mobile.png);
+    }
+}
+

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body::before {
+    display: flex;
+    content: '';
+ 
+}
+
+nav {
+    background-color: white;
+    border: 0px solid rgb(138, 8, 8);
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: smaller;
+
+   
+}form {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+   
+}
+h1{
+    font-size: ;
+}
+
+
+.col{
+    display: inline;
+    justify-content: center;
+}
